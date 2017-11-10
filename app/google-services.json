@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1009509203674",
+    "firebase_url": "https://pbankers-2c7dc.firebaseio.com",
+    "project_id": "pbankers-2c7dc",
+    "storage_bucket": "pbankers-2c7dc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1009509203674:android:3906213345a27623",
+        "android_client_info": {
+          "package_name": "com.example.user.pb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1009509203674-71koffk2bpkqq5c898t3jr2tmv7dsqgq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.user.pb",
+            "certificate_hash": "6ce3869a0c7872df990de1040c6ac48827d904eb"
+          }
+        },
+        {
+          "client_id": "1009509203674-8m4rvlkaomhj1fkb8t7r99gr8tbk2jrh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXxLWk1obU9Gxozg2AIfCkTQufmu_yLQ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1009509203674-8m4rvlkaomhj1fkb8t7r99gr8tbk2jrh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

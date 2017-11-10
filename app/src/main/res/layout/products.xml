@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/products"
+            android:id="@+id/imageView2" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/imageView2"
+            android:id="@+id/s1"
+            />
+
+        <TextView
+            android:text="DEPOSITS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView47"
+            android:layout_below="@+id/s1"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="@android:color/holo_blue_bright"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView47"
+            android:id="@+id/s2"
+            />
+
+        <TextView
+            android:text="DEMAND DEPOSIT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/textView48"
+            android:layout_below="@+id/s2"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView48"
+            android:id="@+id/s3"
+            />
+
+        <Button
+            android:text="-> current account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button34"
+            android:onClick="onButtonClick34"
+            android:layout_below="@+id/s3"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+        <Button
+            android:text="-> saving plans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button35"
+            android:onClick="onButtonClick35"
+            android:layout_below="@+id/button34"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/button35"
+            android:id="@+id/s4"
+            />
+        <TextView
+            android:text="TIME DEPOSIT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/textView49"
+            android:layout_below="@+id/s4"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView49"
+            android:id="@+id/s5"
+            />
+        <Button
+            android:text="-> special term deposit scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button36"
+            android:onClick="onButtonClick36"
+            android:layout_below="@+id/s5"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+        <Button
+            android:text="-> multi-optional deposit scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button37"
+            android:onClick="onButtonClick37"
+            android:layout_below="@+id/button36"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> reccuring deposit scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button38"
+            android:onClick="onButtonClick38"
+            android:layout_below="@+id/button37"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+
+        <Button
+            android:text="-> term deposit scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button39"
+            android:onClick="onButtonClick39"
+            android:layout_below="@+id/button38"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/button39"
+            android:id="@+id/s6"
+            />
+        <TextView
+            android:text="ADVANCES"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView50"
+            android:layout_below="@+id/s6"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:background="@android:color/holo_blue_bright"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView50"
+            android:id="@+id/s7"
+            />
+        <TextView
+            android:text="AGRICULTURE"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/textView51"
+            android:layout_below="@+id/s7"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/textView51"
+            android:id="@+id/s8"
+            />
+        <Button
+            android:text="-> kcc(kishan credit card)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button40"
+            android:onClick="onButtonClick40"
+            android:layout_below="@+id/s8"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+        <Button
+            android:text="-> tractor loan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button41"
+            android:onClick="onButtonClick41"
+            android:layout_below="@+id/button40"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> combine harvester loan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button42"
+            android:onClick="onButtonClick42"
+            android:layout_below="@+id/button41"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+
+        <Button
+            android:text="-> finanace to joint liability group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button43"
+            android:onClick="onButtonClick43"
+            android:layout_below="@+id/button42"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"/>
+        <Button
+            android:text="-> saghan mini dairy yojana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button44"
+            android:onClick="onButtonClick44"
+            android:layout_below="@+id/button43"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> poultry venture capital funds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button45"
+            android:onClick="onButtonClick45"
+            android:layout_below="@+id/button44"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+
+        <Button
+            android:text="-> loan for construction/renovation of rural godowns"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button46"
+            android:onClick="onButtonClick46"
+            android:layout_below="@+id/button45"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+
+            />
+        <Button
+            android:text="-> agri bussiness/agri clinic finanace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button47"
+            android:onClick="onButtonClick47"
+            android:layout_below="@+id/button46"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> solar photo voltic water pumping system"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button48"
+            android:onClick="onButtonClick48"
+            android:layout_below="@+id/button47"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/button48"
+            android:id="@+id/s9"
+            />
+        <TextView
+            android:text="-> OTHER SEGMENTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/textView52"
+            android:layout_below="@+id/s9"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/s9"
+            android:id="@+id/s10"
+            />
+        <Button
+            android:text="-> Working capital advance "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button49"
+            android:onClick="onButtonClick49"
+            android:layout_below="@+id/s10"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+        <Button
+            android:text="-> public transport vehicle loan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button50"
+            android:onClick="onButtonClick50"
+            android:layout_below="@+id/button49"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> doctor plus scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button51"
+            android:onClick="onButtonClick51"
+            android:layout_below="@+id/button50"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+
+        <Button
+            android:text="-> concessional loan for handicapped"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button52"
+            android:onClick="onButtonClick52"
+            android:layout_below="@+id/button51"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"/>
+        <Button
+            android:text="-> solar home light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button53"
+            android:onClick="onButtonClick53"
+            android:layout_below="@+id/button52"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> weaver credit card yojana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button54"
+            android:onClick="onButtonClick54"
+            android:layout_below="@+id/button53"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+
+        <Button
+            android:text="-> rent plus scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button55"
+            android:onClick="onButtonClick55"
+            android:layout_below="@+id/button54"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+
+            />
+        <Button
+            android:text="-> loan for pensioners"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button56"
+            android:onClick="onButtonClick56"
+            android:layout_below="@+id/button55"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> debt swap scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button57"
+            android:onClick="onButtonClick57"
+            android:layout_below="@+id/button56"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> general credit card scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button58"
+            android:onClick="onButtonClick58"
+            android:layout_below="@+id/button57"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+
+        <Button
+            android:text="-> mukhyamantri gramodhyog rojgar yojana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button59"
+            android:onClick="onButtonClick59"
+            android:layout_below="@+id/button58"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+
+            />
+        <Button
+            android:text="-> bank guarantee scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button60"
+            android:onClick="onButtonClick60"
+            android:layout_below="@+id/button59"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> mortgage loan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button61"
+            android:onClick="onButtonClick61"
+            android:layout_below="@+id/button60"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/button61"
+            android:id="@+id/s11"
+            />
+        <TextView
+            android:text="-> PERSONAL SEGMENTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:id="@+id/textView53"
+            android:layout_below="@+id/s11"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/s11"
+            android:id="@+id/s12"
+            />
+        <Button
+            android:text="-> FOUR WHEELER LOAN SCHEME FOR PERSONAL USE "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button62"
+            android:onClick="onButtonClick62"
+            android:layout_below="@+id/s12"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+        <Button
+            android:text="-> grahak samvridhi yojana"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button63"
+            android:onClick="onButtonClick63"
+            android:layout_below="@+id/button62"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> pb teachers loan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button64"
+            android:onClick="onButtonClick64"
+            android:layout_below="@+id/button63"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+
+        <Button
+            android:text="-> purvanchal housing loan scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button65"
+            android:onClick="onButtonClick65"
+            android:layout_below="@+id/button64"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"/>
+        <Button
+            android:text="-> purvanchal bank education loan scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button66"
+            android:onClick="onButtonClick66"
+            android:layout_below="@+id/button65"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+        <Button
+            android:text="-> demand loan and overdraft facility against bank deposit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button67"
+            android:onClick="onButtonClick67"
+            android:layout_below="@+id/button66"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+            />
+
+
+
+        <Button
+            android:text="-> two wheeler loan scheme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button68"
+            android:onClick="onButtonClick68"
+            android:layout_below="@+id/button67"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:textSize="18sp"
+
+            />
+
+
+    </RelativeLayout>
+</ScrollView>

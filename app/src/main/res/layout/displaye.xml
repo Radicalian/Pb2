@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bg5">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg5">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bankser"
+        android:id="@+id/imageView14"
+        android:background="@drawable/bg5"/>
+
+
+    <Button
+        android:text="remittances"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+         android:layout_below="@+id/imageView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_green_light"
+        android:onClick="onButtonClick10" />
+
+        <Button
+            android:text="locker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button11"
+            android:background="@android:color/holo_green_light"
+            android:onClick="onButtonClick11"
+            android:layout_below="@+id/button10"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="atm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button17"
+            android:background="@android:color/holo_green_light"
+            android:onClick="onButtonClick17"
+            android:layout_below="@+id/button13"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+        android:text="insurance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button12"
+            android:background="@android:color/holo_green_light"
+        android:onClick="onButtonClick12"
+            android:layout_below="@+id/button11"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+        android:text="Mobile banking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button13"
+            android:background="@android:color/holo_green_light"
+        android:onClick="onButtonClick13"
+            android:layout_below="@+id/button12"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+</RelativeLayout>
+
+</ScrollView>

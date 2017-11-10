@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/a13"
+        android:id="@+id/imageView94" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/c2"
+        android:layout_below="@+id/imageView94"/>
+
+    <TextView
+        android:text="Storage capacity in rural areas to meet the requirements of farmers for storing the farm produce
+
+\n Promote grading is the objective of this scheme, standardization and quality control of agricultural produce to improve marketability
+
+\n Prevent distress sale immediately after harvest.
+
+
+
+\n Eligibility:
+
+\n 1.Individuals/ farmers
+\n 2.Proprietary and partnership firms
+\n 3.Co‐operatives, Agro‐processing co‐operative societies
+\n 4.Companies
+\n 5.Corporations, Agro‐industrial corporations
+\n 6.Group of farmers/growers
+\n 7.NGOs
+\n 8.SHGs
+\n 9.Marketing boards, etc"
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView55"
+        android:layout_below="@+id/c2"/>
+    </RelativeLayout>
+
+</ScrollView>

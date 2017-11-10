@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/a9"
+            android:id="@+id/imageView104" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/c12"
+            android:layout_below="@+id/imageView104"/>
+
+        <TextView
+            android:text="1.A farmer should own minimum 8 acres of irrigated land
+\n2.Combine harvester should be utilized for a minimum of 1000 hours of productive work in a year
+\n3.Minimum 25 percent margin on unit cost may be stipulated
+\n4.Unit cost will include cost of combine harvester and accessories, if any
+\n5.Non-farmer entrepreneurs capable of utilizing combine harvester for custom hiring  work are also eligible.
+\n6.Loan will be available only for purchase of new combine harvesters
+\n7.Repayment of loan will be in five years"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView101"
+            android:layout_below="@+id/c12"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

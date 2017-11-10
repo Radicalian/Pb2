@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_google_signin_btn_text_dark_pressed"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/eta1"
+        android:id="@+id/imageView49" />
+
+    <Button
+        android:text="go to santkabirnagar branches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button25"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:onClick="onButtonClick25"
+        android:layout_below="@+id/imageView52"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="55dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/eta2"
+        android:id="@+id/imageView50"
+        android:layout_marginTop="376dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/eta3"
+        android:id="@+id/imageView51"
+        android:layout_marginTop="93dp"
+        android:layout_below="@+id/imageView50"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/eta4"
+
+        android:id="@+id/imageView52"
+        android:layout_marginTop="84dp"
+        android:layout_below="@+id/imageView51"
+        android:layout_alignLeft="@+id/imageView50"
+        android:layout_alignStart="@+id/imageView50" />
+</RelativeLayout>
+</ScrollView>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/homeloan"
+            android:id="@+id/imageView94" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/c2"
+            android:layout_below="@+id/imageView94"/>
+
+        <TextView
+            android:text="Purvanchal  Bank offers you to be a owner of your own home and offers easy Home Loan with a number of conveniences to suit your budget.
+
+\n The Home Loans offering from our bank  essentially provides for finance in relation to the purchase/construction of a new house
+
+\n Extension and Renovation of house financing of an old house, purchase of a plot.
+
+\n Wide range of requirements addressed and Flexible 20 years loan repayment period"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView55"
+            android:layout_below="@+id/c2"/>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

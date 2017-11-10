@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/common_google_signin_btn_text_dark_default">
+
+        <TextView
+            android:text="CURRENT RATE OF INTEREST ON LOAN ACCOUNTS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView129"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg5" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/advancea"
+            android:id="@+id/imageView70"
+            android:layout_below="@+id/textView129"
+            android:background="@color/common_google_signin_btn_text_dark_default"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            app:srcCompat="@drawable/advanceb"
+            android:id="@+id/imageView71"
+            android:layout_below="@+id/imageView70"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/advancec"
+            android:id="@+id/imageView72"
+            android:layout_below="@+id/imageView71"
+            android:background="@color/common_google_signin_btn_text_dark_default"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/advanced"
+            android:id="@+id/imageView73"
+            android:layout_below="@+id/imageView72"
+            android:background="@color/common_google_signin_btn_text_dark_default"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/advancee"
+            android:id="@+id/imageView74"
+            android:layout_below="@+id/imageView73"
+            android:background="@color/common_google_signin_btn_text_dark_default"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/advancef"
+            android:id="@+id/imageView75"
+            android:background="@color/common_google_signin_btn_text_dark_default"
+            android:layout_below="@+id/imageView74"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/advancei"
+            android:id="@+id/imageView76"
+            android:layout_below="@+id/imageView75"
+            android:background="@color/common_google_signin_btn_text_dark_default"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/advancej"
+            android:id="@+id/imageView77"
+            android:layout_below="@+id/imageView76"
+            android:background="@color/common_google_signin_btn_text_dark_default"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/advanceg"
+            android:id="@+id/imageView78"
+            android:layout_below="@+id/imageView77"
+            android:background="@color/common_google_signin_btn_text_dark_default"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/advanceh"
+            android:id="@+id/imageView79"
+            android:layout_below="@+id/imageView78"
+            android:background="@color/common_google_signin_btn_text_dark_default"/>
+
+    </RelativeLayout>
+
+</ScrollView>

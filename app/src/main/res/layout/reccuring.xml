@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/a3"
+            android:id="@+id/imageView96" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/c4"
+            android:layout_below="@+id/imageView96"/>
+
+        <TextView
+            android:text="1.Regular saving every month.
+\n2.Higher returns on savings.
+\n3.Interest compounded at quarterly rest.
+\n4.Additional interest to senior citizens.
+\n5.Loan facility, Premature payment allowed"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView55"
+            android:layout_below="@+id/c4"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.pb">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission
+        android:name="android.permission.WAKE_LOCK"/>
+    android:hardwareAccelerated="true"
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/pn"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme">
+        <!-- Set custom default icon. This is used when no icon is set for incoming notification messages.
+            See README(https://goo.gl/l4GJaQ) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/pn" />
+        <!-- Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more. -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".Displa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displae"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displaee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displaeee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displai"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displaos"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displaao"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displam"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displav"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displaer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displael"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Displaeer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".br"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bre"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".bree"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".breee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".breeee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".breeeee"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".breeeeed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".breeeeedd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".displaein"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".displaeat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".displaeed"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".displaemo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProfileActivity"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".info">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".gallery">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".developer">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".share">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".contact">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".settings">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".holiday">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Intrest">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Deposits">
+            android:screenOrientation="portrait"/>
+        </activity>
+
+        <activity android:name=".Advances">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Services">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Forms">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Products">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Current">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Savings">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Specials">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Multi">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Reccuring">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Terms">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Kcc">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Tractor">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Combine">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Finance">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Saghan">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Poultry">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Loan">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Agri">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Solar">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Working">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Public">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Doctor">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Concessional">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Home">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Weaver">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Rent">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Pensioner">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Debt">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".General">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Mukhyamantri">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Bank">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Mortgage">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".fourwheeler">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".pbteacher">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".grahak">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".homeloan">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".education">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".demand">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".twowheeler">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".mobile">
+            android:screenOrientation="portrait"/>
+        </activity>
+        <activity android:name=".Faq">
+            android:screenOrientation="portrait"/>
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>

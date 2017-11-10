@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/a12"
+        android:id="@+id/imageView94" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/c2"
+        android:layout_below="@+id/imageView94"/>
+
+    <TextView
+        android:text="Objective Of Scheme:
+
+\n1.to improve production of poultry products which have ready market all over country
+\n2.to improve productivity of un-scientifically run units through technology up gradation
+\n3.to provide quality meat to consumers in hygienic conditions, and improve hygienic sale of poultry meat and products in urban areas and neighborhood societies through poultry dressing and marketing outlets.
+\n4.to improve productivity and facilitate rearing of other poultry species like quails, ducks, and turkeys etc which have good potential.
+\n5.to encourage poultry farming activity especially in non-traditional States and provide employment opportunities in backward areas
+\nEligibility:
+
+\n1.Farmers, individual entrepreneurs, NGOs, companies, cooperatives, groups of unorganized and organized sector which include Self Help Groups (SHGs), Joint Liability Groups (JLGs) etc.
+\n2.An individual will be eligible to avail assistance for all the components under the scheme but only once for each component
+\n3.When more than one member of a family is assisted under the scheme, the units setup by each member should be with separate infrastructure at different locations with distinct identity. The distance between the boundaries of two adjacent farms should be at least 500m."
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView55"
+        android:layout_below="@+id/c2"/>
+    </RelativeLayout>
+
+</ScrollView>

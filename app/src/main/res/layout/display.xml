@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg4">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/aboutus"
+            android:id="@+id/imageView5"
+
+            android:layout_marginTop="71dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:text="Organisational Structure"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:background="@android:color/holo_orange_light"
+            android:layout_below="@+id/button3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:onClick="onButtonClick6"/>
+
+        <Button
+            android:text="AREA OF OPERATION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button5"
+            android:background="@android:color/holo_orange_light"
+
+            android:layout_below="@+id/button4"
+
+            android:onClick="onButtonClick7"/>
+
+        <Button
+            android:text="Mission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button6"
+            android:background="@android:color/holo_orange_light"
+android:layout_below="@+id/button5"
+            android:onClick="onButtonClick8"
+
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <Button
+            android:text="VISION"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button7"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="onButtonClick9"
+            android:layout_below="@+id/button6"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+        <Button
+            android:text="Introduction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:background="@android:color/holo_orange_light"
+            android:onClick="onButtonClick5"
+            android:layout_marginTop="120dp"
+            android:layout_below="@+id/imageView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

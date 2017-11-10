@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/content_profile"
+        android:background="@drawable/bg2">
+
+
+        <Button
+                android:text="photo gallery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button18"
+                android:background="@android:color/holo_blue_light"
+                android:onClick="onButtonClick4"
+            android:textSize="15sp"
+                android:layout_below="@+id/button14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/pih"
+            android:id="@+id/imageView63"
+            android:layout_marginTop="31dp"
+            android:layout_below="@+id/viewPager"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/textView99"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+
+            android:singleLine="true"
+            android:id="@+id/textView99"
+            android:fadingEdge="horizontal"
+            android:paddingRight="15dip"
+            android:paddingLeft="15dip"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="35dp"
+            android:textStyle="normal|bold"
+            android:textColorLink="@android:color/holo_green_dark"
+            android:textSize="16sp"
+            android:layout_below="@+id/imageView63"
+            android:layout_centerHorizontal="true"
+            android:textColor="@android:color/holo_green_dark"
+            tools:ignore="Deprecated" />
+
+
+        <Button
+            android:text="About Us"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button2"
+            android:onClick="onButtonClick"
+            android:background="@android:color/holo_blue_light"
+              android:textSize="15sp"
+            android:layout_marginTop="71dp"
+            android:layout_below="@+id/ll"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+                android:text="Services"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button8"
+                android:onClick="onButtonClick2"
+            android:background="@android:color/holo_blue_light"
+            android:textSize="15sp"
+            android:layout_below="@+id/button2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="branches"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:id="@+id/button14"
+            android:onClick="onButtonClick3"
+            android:background="@android:color/holo_blue_light"
+            android:layout_below="@+id/button280"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="intrest and service charges"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button27"
+            android:onClick="onButtonClick27"
+            android:textSize="15sp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_below="@+id/button8"/>
+        <Button
+            android:text="download application forms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button28"
+            android:onClick="onButtonClick28"
+            android:textSize="15sp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_below="@+id/button27"/>
+        <Button
+            android:text="Products"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/button280"
+            android:onClick="onButtonClick280"
+            android:textSize="15sp"
+            android:background="@android:color/holo_blue_light"
+            android:layout_below="@+id/button28"/>
+
+        <android.support.v4.view.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:id= "@+id/viewPager"
+            android:layout_marginTop="13dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+        </android.support.v4.view.ViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ll"
+            android:background="@color/colorPrimary3"
+            android:layout_below="@+id/textView99"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="25dp">
+
+
+            <TextView
+                android:text="NEWS AND NOTICES"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView37"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="normal|bold"
+                android:background="@color/colorPrimary1" />
+
+            <TextView
+                android:text="-> RuPay Offers for F.Y. 2017-2018(Download)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView38"
+
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_dark"
+                android:onClick="onTextView38"
+                 />
+
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+
+            <TextView
+                android:text="-> Corrigendum-2 For UPS AMC Tender(Download)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView39"
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_dark"
+                android:onClick="onTextView39"
+                />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:text="-> Application For Linking Aadhaar/UID Number with the account(Download)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView40"
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_dark"
+                android:onClick="onTextView40"
+                />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:text="->  Corrigendum For UPS AMC Tender(Download)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView41"
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_dark"
+                android:onClick="onTextView41"
+                />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:text="-> Open Tender For UPS AMC Tender(Download)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView42"
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_dark"
+                android:onClick="onTextView42"
+                />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:text="-> Pradhan Mantri Jan-Yojana(PMJDY)(Download)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView43"
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_dark"
+                android:onClick="onTextView43"
+                />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:text="-> PMAY(Pradhan Mantri Awaas Yojana Credit linked Subsidy Scheme(CLSS)-Eligibility Criteria(Download)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView44"
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_dark"
+                android:onClick="onTextView44"
+                />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:text="-> Purvanchal bank Balance sheet for the financial year 2015-2016(Download)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView45"
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_dark"
+                android:onClick="onTextView45"
+                />
+            <Space
+                android:layout_width="20dp"
+                android:layout_height="20dp" />
+            <TextView
+                android:text="-> List Of SME COMMANDOS(Download)"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView46"
+
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_dark"
+                android:onClick="onTextView46"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+    </ScrollView>

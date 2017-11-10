@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/fourwheeler"
+            android:id="@+id/imageView94" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/c2"
+            android:layout_below="@+id/imageView94"/>
+
+        <TextView
+            android:text="Purvanchal Bank finance Four Wheeler at affordable interest rates and you can get instant approval to buy your first dream Four wheeler!
+
+\n Purpose-To purchase a four wheeler
+
+\n Loan Amount -75% of the total project cost
+
+\n Margin -25%
+
+\n Security -Hypothecation of the vehicle to be purchased.
+
+\n To Apply please contact nearest branch of Purvanchal Bank"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView55"
+            android:layout_below="@+id/c2"/>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

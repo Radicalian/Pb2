@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/a10"
+        android:id="@+id/imageView94" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/c2"
+        android:layout_below="@+id/imageView94"/>
+
+    <TextView
+        android:text="Joint Liability Group (JLG) is a lending model to enable group of individuals (usually five) to take a group loan wherein the responsibility of loan recovery on all members. JLG based credit is an industry proven concept and has been successfully implemented in many countries. In India the success of JLG based lending is still being nurtured and is tightly monitored by the regulator.
+
+\nOur solution provides a platform to source and service the members of the groups and offers a unique value proposition to our clients and its customers through a secure lending mechanism.
+
+\nThe unique differentiation comes from our operations with penetration deeper banking technology that works in all environments to capture information and acquire customer at their doorstep."
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView55"
+        android:layout_below="@+id/c2"/>
+    </RelativeLayout>
+
+</ScrollView>

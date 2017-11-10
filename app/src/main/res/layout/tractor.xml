@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/a8"
+            android:id="@+id/imageView100" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/c10"
+            android:layout_below="@+id/imageView100"/>
+
+        <TextView
+            android:text=" Purvanchal bank provides Tractor Loan to buyers/tractor owner having agricultural land in a convenient manner with less paper work
+
+\nAdvantages:
+
+\n-> Loan procedure is eassy
+\n-> Processing is Very Eassy
+\n-> 9 years of repayments
+\n-> Repayment options is flexible
+\n-> Rate of Interest is fixed throughout the tenure
+\n-> Non- mortgage loan available
+\n-> Processing fee is low
+\n-> Interest Rate is low
+
+\nEligibility:
+
+\n-> Borrower must have minimum of 3 acres of land of his own
+\n->For eligibility calculation Agriculture income is being considered
+\n-> For commercial segments Commercial Income is being considered
+
+\nHow to apply:
+
+\nPlease visit the nearest branch of Purvanchal bank"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView101"
+            android:layout_below="@+id/c10"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

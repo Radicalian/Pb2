@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/a24"
+            android:id="@+id/imageView94" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/c2"
+            android:layout_below="@+id/imageView94"/>
+
+        <TextView
+            android:text="Number of withdrawals and repayments is unlimited (within the credit limit)
+\n-> Flexibility in choosing the appropriate time to repay the loan
+\n-> interest burden is less.
+\n-> urgent credit requirements can be solved
+\n-> Earn interest at Savings Bank rate on the credit balance"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView55"
+            android:layout_below="@+id/c2"/>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

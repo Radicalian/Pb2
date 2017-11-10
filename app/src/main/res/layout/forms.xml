@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/colorPrimary3">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary3">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/textView01"
+    android:textAlignment="center"
+    android:textSize="24sp"
+    android:textStyle="bold|normal"
+    android:text="Application Forms"
+    android:background="@color/colorPrimary1"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView02"
+
+            android:textSize="20sp"
+            android:textStyle="bold|normal"
+            android:text="Download the Application Forms by clicking on the given Links below:"
+            android:background="@color/colorPrimary3"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/textView01"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView03"
+            android:onClick="onTextView03"
+            android:textSize="16sp"
+            android:textStyle="bold|normal"
+            android:text="-> PMJJBY APPLICATION FORM "
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/textView02"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView04"
+            android:onClick="onTextView04"
+            android:textSize="16sp"
+            android:textStyle="bold|normal"
+            android:text="-> PRADHAN MANTRI SURAKSHA BIMA YOJANA "
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/textView03"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView05"
+            android:onClick="onTextView05"
+            android:textSize="16sp"
+            android:textStyle="bold|normal"
+            android:text="-> ATAL PENSION YOJANA(APY)- SUBSCRIBER REGISTRATION FORM "
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/textView04"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView06"
+            android:onClick="onTextView06"
+            android:textSize="16sp"
+            android:textStyle="bold|normal"
+            android:text="-> MSME LOAN APPLICATION "
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/textView05"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView07"
+            android:onClick="onTextView07"
+            android:textSize="16sp"
+            android:textStyle="bold|normal"
+            android:text="-> MOBILE BANKING SERVICES REGISTRATION FORM "
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/textView06"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView08"
+            android:onClick="onTextView08"
+            android:textSize="16sp"
+            android:textStyle="bold|normal"
+            android:text="-> MISSED CALL REQUEST APPLICATION FORM "
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/textView07"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView09"
+            android:onClick="onTextView09"
+            android:textSize="16sp"
+            android:textStyle="bold|normal"
+            android:text="-> NEFT/RTGS APPLICATION FORM "
+            android:textColor="@android:color/holo_red_dark"
+            android:layout_marginTop="36dp"
+            android:layout_below="@+id/textView08"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

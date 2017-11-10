@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/a27"
+            android:id="@+id/imageView94" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/c2"
+            android:layout_below="@+id/imageView94"/>
+
+        <TextView
+            android:text="Employees of Central/ State Govt./Schools/Colleges/ Public Sector Undertakings (PSUs)/ Reputed Corporates and Other Income Tax Assesses, Business Enterprises-Existing customers with a satisfactory track record of three years,Business Enterprises who are below the age of 60 years are eligible for this scheme
+
+ "
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView55"
+            android:layout_below="@+id/c2"/>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

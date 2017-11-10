@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/common_google_signin_btn_text_dark_default">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/contct"
+        android:id="@+id/imageView67"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:text="PURVANCHAL BANK, Buddh Vihar Commercial Scheme,
+Taramandal, Gorakhpur (U.P.)- 273016 India"
+
+
+
+
+
+
+
+        android:layout_width="match_parent"
+        android:id="@+id/textView33"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginTop="52dp"
+        android:layout_below="@+id/imageView67"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="E-Mail: pgbgkp@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView34"
+        android:layout_below="@+id/textView33"
+        android:layout_alignLeft="@+id/textView33"
+        android:layout_alignStart="@+id/textView33"
+        android:autoLink="email"
+        android:textColorLink="@android:color/holo_green_light" />
+
+    <TextView
+        android:text="Missed Call Balance enquiry - 92665 92669"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView36"
+        android:autoLink="phone"
+        android:textColorLink="@android:color/holo_orange_dark"
+        android:layout_below="@+id/textView35"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="ATM TOLL FREE NO. :1800 3000 0620/8106573542"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:id="@+id/textView35"
+        android:autoLink="phone"
+        android:textColorLink="@android:color/holo_orange_dark"
+        android:layout_below="@+id/textView34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+</RelativeLayout>
+    </ScrollView>

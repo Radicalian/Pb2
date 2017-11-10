@@ -1,0 +1,192 @@
+<resources>
+    <string name="app_name">"Purvanchal Bank"</string>
+    <string name="textView27"> "The Indian market offers huge potential for cards penetration despite the challenges. RuPay Cards will address the needs of Indian consumers, merchants and banks. The benefits of RuPay debit card are the flexibility of the product platform, high levels of acceptance and the strength of the RuPay brand-all of which will contribute to an increased product experience.
+
+1.Lower cost and affordability :
+
+Since the transaction processing will happen domestically, it would lead to lower cost of clearing and settlement for each transaction. This will make the transaction cost affordable and will drive usage of cards in the industry.
+
+2.Customized product offering :
+
+RuPay, being a domestic scheme is committed towards development of customized product and service offerings for Indian consumers.
+
+3.Protection of information related to Indian consumers :
+
+Transaction and customer data related to RuPay card transactions will reside in India.
+
+4.Provide electronic product options to untapped/unexplored consumer segment :
+
+There are under-penetrated/untapped consumers segments in rural areas that do not have access to banking and financial services. Right pricing of RuPay products would make the RuPay cards more economically feasible for banks to offer to their customers. In addition, relevant product variants would ensure that banks can target the hitherto untapped consumer segments."
+             </string>
+    <string name="textView19"> "Definitions:
+
+The following words and expressions shall have the corresponding meanings wherever appropriate.
+
+Customer: the holder of a Bank account in Purvanchal Bank.
+MPIN: shall mean the Personal Identification Number (password) for the Mobile Banking Services.
+
+MBS: shall mean Mobile Banking Services for the sake of brevity
+
+Bank: shall mean Purvanchal Bank.
+
+Facility: shall mean Mobile Banking facility provided to the customers
+
+Mobile Phone Number: shall mean the Mobile number that has been used by the customer to register for the Facility.
+
+Application: shall mean the Bank’s Mobile Banking application which will be downloaded onto the mobile phone of the Customer.
+
+OTP: One Time Password is an SMS sent to the customer’s registered mobile on initiation of a transaction using MBS.
+
+Applicability of Terms and Conditions:
+
+By activating the MBS on this mobile, the Customer thereby agrees to these Terms and Conditions, which form the contract between the Customer and Bank. MBS of the Bank shall be governed by such terms and conditions as amended by the Bank from time to time. These terms and conditions shall be in addition to and not in derogation of other terms and conditions relating to any account of the Customer and/or the respective product or the service provided by the Bank unless otherwise specifically stated.
+
+General Business Rules Governing Mobile Banking Services:
+
+The following Business rules will apply on MBS being offered by the Bank
+
+1. The facility will be available to customers having a satisfactory running Savings / Current / Overdraft account with the Bank.
+
+2. The daily upper ceiling per customer shall be Rs.25,000/-for fund transfer and shall not exceed Rs.2,00,000/- in a month.
+
+3. Any change in the business rules of any of the processes will be notified on Bank’s website www.purvanchalbank.com which will be construed as sufficient notice to the customer.
+
+4. Joint Account holders are strictly not eligible to use the Facility. If a customer is already registered to the Facility, subsequently opens a joint account with his customer ID at a later point of time, then such customers are also not eligible to use the facility. The Bank reserves the right to withdraw the Facility of such customers without any prior notice. The customer is liable/responsible for the disputes/legal issues that may arise at a later date.
+
+5. The Bank reserves the right to reject a Customer’s application for MBS without assigning any reasons.
+
+6. The Bank shall suspend the registration of any Customer if the Facility has not been accessed by the Customer for three months or more. If the facility has not been accessed for six months or more, the registration of the Customer will be cancelled.
+
+7. The Customer can request for termination of the Facility by visiting the branch and giving a written request. The Customer shall remain accountable for all the transactions on the designated account made request prior to confirmation of any such cancellation request.
+
+8. It shall be the Bank’s endeavour to give a reasonable notice for withdrawal or termination of the facility, but the Bank may at its discretion withdraw temporarily or terminate the facility, either wholly or partially, anytime without giving prior notice to the customer. The facility may be suspended for any maintenance or repair work for any breakdown in the Hardware/ Software for MBS, any emergency or security reasons without prior notice and the bank shall not be responsible if such an action has to be taken for reasons of security or emergency.
+
+9. The Bank may also terminate or suspend the services under the Facility without prior notice if the customer has violated the terms and conditions laid down by the Bank or on the death of the Customer when brought to the notice of the Bank.
+
+Usage of Facility:
+
+By accepting the terms and conditions on the mobile phone while registering for the facility, the customer:
+
+1. agrees to use the MBS for financial and nonfinancial transactions offered by the Bank from time to time.
+
+2. also irrevocably authorizes the Bank to debit the Bank Account which have been enabled for MBS for all transactions/services undertaken using MPIN.
+
+3. authorises the Bank to map the customer number, User ID and mobile phone number for the smooth operation of MBS offered by Bank and to preserve the mapping record in its own server or server of any other third party and to use such data at its discretion for providing/enhancing further banking/ technology products that it may offer.
+
+4. agrees that he/ she is aware and accepts that MBS offered by the Bank will enable him/her to transact using MPIN within the limit prescribed by the Bank and will be deemed as bonafide transaction.
+
+5. agrees that the transactions originated using the mobile phones are non retractable as these are instantaneous/real time.
+
+6. understands and explicitly agrees that Bank has the absolute and unfettered right to revise the prescribed ceilings from time to time which will be binding upon him/her.
+
+7. agrees to use the facility on a mobile phone properly and validly registered in his/her name only with the Mobile Service Provider and undertakes to use the Facility only through mobile number which has been used to register for the Facility.
+
+8. agrees that while the Information Technology Act , 2000 prescribes that a subscriber may authenticate an electronic record by affixing his digital signature which has been given legal recognition under the Act, the Bank is authenticating the customer by using Mobile Number, MPIN or any other method decided at the discretion of the Bank which may not be recognized under the IT Act, 2000 for authentication of electronic records and this is acceptable and binding to the customer and hence the customer is solely responsible for maintenance of the secrecy and confidentiality of the MPIN without any liability to the Bank.
+
+Others:
+
+1. The Customer shall be required to acquaint himself/herself with the process for using the Facility and that he/she shall be responsible for any error made while using the Facility.
+
+2. The Bank reserves the right to decide what services may be offered. Additions/ deletions to the services offered under the facility are at its sole discretion.
+
+3. The instructions of the Customer shall be effected only after authentication under his/her USER ID and MPIN or through any other mode of verification as may be stipulated at the discretion of the Bank.
+
+4. While it shall be the endeavour of the Bank to carry out the instructions received from the Customers promptly, it shall not be responsible for the delay/ failure in carrying out the instructions due to any reasons whatsoever including failure of operational system or due to any
+
+requirement of law. The Customer expressly authorizes the Bank to access his/her account information required for offering the services requirement of law. The Customer expressly authorizes the Bank to access his/her account information required for offering the services under the facility and also to share the information regarding his/ her accounts with the service provider/ third party as may be required to provide the services under the Facility.
+
+5. The transactional details will be recorded by the Bank and these records will be regarded as conclusive proof of the authenticity and accuracy of transactions.
+
+6. The Customer hereby authorizes the Bank or its agents to send promotional messages including the products of the Bank, greetings or any other messages the Bank may consider from time to time.
+
+7. The Customer understands that the Bank may send rejection or cannot process the request messages for the service request(s) sent by the Customer which could not be executed for any reason.
+
+8. The Bank shall make all reasonable efforts to ensure that the customer information is kept confidential but shall not be responsible for any inadvertent divulgence or leakage of confidential Customer information for reasons beyond its control or by action of any third party.
+
+9. The Customer expressly authorizes the Bank to carry out all requests/ transactions purporting to have been received from his/ her mobile phone and authenticated with his/ her MPIN. In the case of payment facilities like fund transfer, mobile top up, bill payment, etc, the customer shall be deemed to have expressly authorised the Bank to make the payment when a request is received from him/ her.
+
+10. It is the responsibility of the Customer to advise the Bank of any change in his mobile number or loss/ theft of mobile phone by adopting the procedure laid down by the Bank for the purpose.
+
+11. The Telecom Service provider of the customer may levy charges for each SMS/ dial/GPRS and the Bank is not liable for any dispute that may arise between such telecom service provider and the customer.
+
+12. The disputes that may arise in respect of mobile banking shall be under the jurisdiction of Gorakhpur district, Uttar Pradesh, only.
+
+Fee structure for the Facility:
+
+The Bank reserves the right to charge the Customer a fee for the use of the services provided under the Facility and change the fee structure at its discretion. Display of such charges on Bank’s website would serve as sufficient notice and the same is binding on the customer.
+
+Accuracy of Information:
+
+It is the responsibility of the Customer to provide correct information to the Bank through the use of the Facility or any other method. In case of any discrepancy in this information, the Customer understands that the Bank will not be in any way responsible for action taken based on the information. The Bank will endeavour to correct the error promptly wherever possible on a best effort basis, if the customer reports such error in information.
+
+The Customer understands that the Bank will try, to the best of its ability and effort, to provide accurate information and shall not hold the Bank responsible for any errors or omissions that may occur due to reasons beyond the control of the Bank.
+
+The Customer accepts that the Bank shall not be responsible for any errors which may occur in spite of the steps taken by the Bank to ensure the accuracy of the information and shall not have any claim against the Bank in an event of any loss/ damage suffered as a consequence of an inaccurate information provided by the Bank.
+
+Responsibilities and obligations of the customer:
+
+1. The customer will be responsible for all transactions, including fraudulent/erroneous transactions made through the use of his/ her mobile phone, SIM card and MPIN, regardless of whether such transactions are in fact entered into or authorized by him/ her. The customer will
+
+be responsible for the loss/damage, if any suffered.
+
+2. The Customer shall take all steps possible to ensure that his/her mobile phone is not shared with anyone and shall take immediate action to deregister from MBS as per procedure laid down in case of misuse/ theft/loss of the mobile phone or SIM card.
+
+3. The Customer will use the services offered under Facility using the MPIN in accordance with the procedure as laid down by the Bank from time to time.
+
+4. The Customer shall keep the USER ID and MPIN confidential and will not disclose these to any other person or will not record them in a way that would compromise the security of the services.
+
+5. It will be the responsibility of the Customer to notify the Bank immediately if he/ she suspect the misuse of the MPIN. He will also immediately initiate the necessary steps to change his MPIN.
+
+6. If the mobile phone or SIM is lost, the user must immediately take action to deregister
+
+from MBS at Home branch of the primary account enabled for MBS.
+
+7. The Customer accepts that any valid transaction originating from the USER ID and / or registered mobile phone number shall be assumed to have been initiated by the Customer and any transaction authorized by the MPIN is duly and legally authorized by the Customer.
+
+8. The Customer shall keep himself/herself updated with regard to any information / modification relating to the services offered under the facility which would be publicized on the websites and at the branches and would be responsible for the same.
+
+9. The Customer shall be liable for all loss on breach of the Terms and Conditions contained herein or contributed or caused the loss by negligent actions or a failure to advise the Bank within a reasonable time about any unauthorised access in the account.
+
+10. The Customer shall be liable and responsible for all legal compliance and adherence of all commercial terms and conditions in respect of the mobile connection/SIM card/mobile phone through which the facility is availed and the Bank does not accept / acknowledge any responsibility in this regard.
+
+Disclaimer:
+
+The Bank, when acting in good faith, shall be absolved of any liability in case:
+
+The Bank is unable to receive or execute any of the requests from the Customer or there is loss of information during processing or transmission or any unauthorized access by any other person or breach of confidentiality or due to reasons beyond the control of the Bank.
+
+There is any kind of loss, direct or indirect, incurred by the Customer or any other person due to any failure or lapse in the facility which are beyond the control of the Bank.
+
+There is any failure or delay in transmitting of information or there is any error or inaccuracy of information or any other consequence arising from any cause beyond the control of the Bank which may include technology failure, mechanical breakdown, power disruption, etc.
+
+There is any lapse or failure on the part of the service providers or any third party affecting the said facility and that the Bank makes no warranty as to the quality of the service provided by any such provider. The Bank, its employees, agent or contractors, shall not be liable for and in respect
+
+of any loss or damage whether direct, indirect or consequential, including but not limited to loss of revenue, profit, business, contracts, anticipated savings or goodwill, loss of use or value of any equipment including software, whether foreseeable or not, suffered by the Customer or any person howsoever arising from or relating to any delay, interruption, suspension, resolution or error of the Bank in receiving and processing the request and in formulating and returning responses or any failure, delay, interruption, suspension, restriction, or error in transmission of any information or message to and from the telecommunication equipment of the Customer and the network of any service provider and the Bank's system or any breakdown, interruption, suspension or failure of the telecommunication equipment of the Customer, the Bank's system or the network of any service provider and/or any third party who provides such services as is necessary to provide the Facility.
+
+The Bank will not be responsible if Bank’s mobile banking application is not compatible with/ does not work on the mobile handset of the Customer.
+
+Indemnity:
+
+In consideration of the Bank providing these facilities, the Customer agrees to indemnify and hold the Bank harmless against all actions, claims, demands proceedings, loss, damages, costs, charges and expenses which the Bank may at any time incur, sustain, suffer or be put to as a consequence of or arising out of or in connection with any services provided to the Customer pursuant hereto. The Customer shall indemnify the Bank for unauthorized access by any third party to any information/instructions/triggers given by the Customer or breach of confidentiality."
+ </string>
+    <string name="website">https://www.sbilife.co.in/en/individual-life-insurance?plancategory=Saving%20Plans</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile_acitivity">ProfileAcitivity</string>
+    <string name="website2">http://www.purvanchalbank.com/</string>
+    <string name="website3">https://play.google.com/store/apps/details?id=com.lcode.pugb</string>
+    <string name="textView99">|| WELCOME TO PURVANCHAL BANK MOBILE APP ||</string>
+    <string name="hint_principal">Principal Amount ₹</string>
+    <string name="hint_interest">Interest rate per Year %</string>
+    <string name="hint_years">How Many Years</string>
+    <string name="hint_emi">EMI ₹</string>
+    <string name="hint_interest_total">Total Interest for Loan ₹</string>
+    <string name="textView33">Purvanchal, the north eastern region of Uttar Pradesh and the divine land of Lord Buddha,          Kabir and Gorakhnath, witnessed an important event on 12 th September 2005. Exercising the powers           conferred by sub-section (1) of section 23A of RRB Act 1976, the Government of India, by its           notification in the Official Gazette, for the first time provided for the amalgamation of            two well established and good profit making RRB\'s i.e., Gorakhpur Kshetriya Bank and Basti Bank,            into one Purvanchal Bank.  History of the area dates back to the epic age as the capital city            of Kushinagar was established by Kusha, the son of Lord Rama. The area was parcelled out into            tiny tribals republic of Mallas, Sakyas, Koliyas, Mauryas and Guptas. During the Gupta dynasty            the socio cultural realm of the region reached the zenith of its glory. During 19th Century,            Gorakhpur and adjoining areas were ceded to NAWAB of Awadh which further went to East India Company.            In 1865 the district of Gorakhpur came into existence and later on famous Guru Gorakhshnath, alongwith            Sufi Sant Jabbarshah, Sant Kabir and famous Hindi writer Acharya Ram Chandra Shukla and Urdu Poet             Raghupati Sahay \'Firaque Gorakhpuri\' have added further to the glory of the region.Purvanchal Bank having              its head office at Gorakhpur operates through the network of its 571 branches, in eleven districts              of Purvanchal. Dedicated employees are working hard for the noble cause of rural upliftment to enable rural              masses to become self dependent and capable of contributing towards national growth in consonance               with National and State level prioritie</string>
+    <string name="title_activity_splash">SplashActivity</string>
+
+
+</resources>

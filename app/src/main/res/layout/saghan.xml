@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/a11"
+        android:id="@+id/imageView94" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/c2"
+        android:layout_below="@+id/imageView94"/>
+
+    <TextView
+        android:text="Employment generation through induction of high milk yielding milch animals is goal of this scheme. This project, in additon to providing a Govt. incentive subsidy, helps the farmers to avail loans from our bank  for purchase of 2/4/8/10 high breed milch animals, and thereby establish many mini dairies  at the village level. The Village Dairy Cooperative Societies provide a ready market for the increased milk production of these mini dairies . The Mini Dairies have played a significant role in generating direct and indirect employment and /or enhancing income generation in rural areas of the State."
+        android:layout_width="match_parent"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView55"
+        android:layout_below="@+id/c2"/>
+    </RelativeLayout>
+
+</ScrollView>

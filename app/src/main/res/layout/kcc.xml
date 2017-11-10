@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/common_google_signin_btn_text_dark_pressed">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/a7"
+            android:id="@+id/imageView102" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:id="@+id/c11"
+            android:layout_below="@+id/imageView102"/>
+
+        <TextView
+            android:text="Kisan Credit Card  provides sufficient and timely credit to farmers. It is a flexible and simplified procedure, adopting whole farm approach, including short-term, medium-term and long-term credit needs of borrowers for agriculture and allied activities and a reasonable component for consumption need.
+
+\nAdvantages of Kisan credit Card:
+
+\n(a) A simplified procedure for credit to farmers, a large number of whom are illiterate or poorly educated
+
+\n(b) No need to apply for loan every year as KCC provides the farmers with a credit facility on ongoing basis or revolving credits;
+
+\n(c) It allows the farmers to buy seeds, fertilizers and other inputs as per his needs;
+
+\n(d) Repayment can be done after harvest period and thus farmer finds it easier to settle the loan by selling his produce
+
+\n(e) There is a flexibility of withdrawal of funds from any branch even when he wants to purchase of agricultural inputs
+
+\nEligibility:
+
+\nFarmers - Individuals/Joint borrowers (owner cultivators)
+\nSHGs or Joint Liability Groups of Farmers including tenant farmers
+\nAssesment of Loan Limit
+
+\nLoan limit is based on borrower's area of land in acres
+
+\nScale of finance
+
+\nIn every succesive years limit is increased by 10% upto 5 years therefore the limit of fifth year is about 150% of first year
+
+\nPAIS(Personnel Accident Insurance Scheme) and NAIS(National agriculture insurance Scheme)  for KCC Holders
+
+to apply for the loan
+
+\nPlease visit nearest branch of purvanchal bank"
+            android:layout_width="match_parent"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView103"
+            android:layout_below="@+id/c11"/>
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

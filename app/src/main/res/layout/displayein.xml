@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_default">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView62"
+        android:layout_alignEnd="@+id/imageView62"
+        android:background="@color/common_google_signin_btn_text_dark_default">
+
+
+        <TextView
+            android:text="SBI Life Insurance is a joint venture life insurance company between State
+    Bank of India (SBI), the largest state-owned banking and financial services company in India,and
+    BNP Paribas Cardiff.BNP Paribas is a French multinational bank and financial services company
+    with global headquarters in Paris.SBI owns 70.1% of the total capital and BNP Paribas Cardiff
+    26% of the capital.Other investors are Value Line Pte. Ltd. and MacRitchie Investments Pte. Ltd.
+    holding 1.95% of the total capital each. SBI Life Insurance has an authorized capital of ₹20
+    billion (US$310 million)and a paid up capital of ₹10 billion (US$160 million).SBI Life Insurance
+    also features in the Fortune Global 500 list of the world’s biggest corporations."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView22"
+            android:textStyle="normal|bold"
+            android:textSize="18sp"
+            android:layout_marginTop="62dp"
+            android:layout_below="@+id/imageView62"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="For More Information Click on the Link"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView25"
+            android:layout_below="@+id/textView22"
+            android:layout_alignRight="@+id/imageView62"
+            android:layout_alignEnd="@+id/imageView62"
+            android:layout_marginTop="18dp"
+            android:textAlignment="textStart"
+            android:gravity="start"
+            android:textColor="@android:color/holo_red_dark"
+            />
+
+        <TextView
+            android:text="@string/website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/website"
+            android:autoLink="web"
+            android:layout_below="@+id/textView25"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColorLink="@android:color/holo_blue_light"
+            android:textSize="16sp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            app:srcCompat="@drawable/insurances"
+            android:id="@+id/imageView62"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="ABOUT SBI LIFE"
+            android:textAlignment="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView21"
+            android:textStyle="normal|bold|italic"
+            android:textSize="24sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:layout_marginTop="13dp"
+            android:layout_below="@+id/imageView62"
+            android:layout_centerHorizontal="true" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
